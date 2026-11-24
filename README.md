@@ -1,5 +1,7 @@
+# Bot de Trading Cuantitativo V2
+
 <p align="center">
-  <img src="assets/cover.svg" alt="Antigravity V2 · Local quantitative trading engine" width="100%">
+  <img src="assets/cover.svg" alt="Bot de Trading Cuantitativo V2 · Local quantitative trading engine" width="100%">
 </p>
 
 <p align="center">
@@ -16,7 +18,7 @@
 
 ---
 
-Antigravity V2 es un motor de trading escrito en Python que transforma señales de consenso en decisiones de ejecución, con cálculo del tamaño de posición, stops y seguimiento del estado de la cuenta. Esta edición pública funciona localmente y está limitada a **Binance Futures Testnet**.
+Bot de Trading Cuantitativo V2 es un motor de trading escrito en Python que transforma señales de consenso en decisiones de ejecución, con cálculo del tamaño de posición, stops y seguimiento del estado de la cuenta. El proyecto original se desarrolló para operar en **Mainnet**. Esta edición pública es una adaptación que funciona localmente y está limitada a **Binance Futures Testnet**.
 
 <table>
 <tr>
@@ -58,8 +60,8 @@ Esta distribución contiene **solo el bot**. No incluye panel, servidor web, aut
 Requiere **Python 3.10 o superior**.
 
 ```sh
-git clone https://github.com/javierandressm/antigravity-v2.git
-cd antigravity-v2
+git clone https://github.com/javierandressm/bot-trading-cuantitativo-v2.git
+cd bot-trading-cuantitativo-v2
 python -m venv .venv
 ```
 
@@ -98,7 +100,7 @@ Una vez configurado, el motor puede enviar órdenes a **Testnet**. Al arrancar e
 ## Mapa del código
 
 ```text
-antigravity-v2/
+bot-trading-cuantitativo-v2/
 ├── binance_autonomous_bot.py     # Bucle principal
 ├── binance_execution_bridge.py   # Sizing, órdenes y protecciones
 ├── binance_futures_client.py     # REST, firmas y límites de API
@@ -139,4 +141,4 @@ Todavía no se ha seleccionado una licencia de redistribución. Publicar el cód
 
 ---
 
-<p align="center"><strong>ANTIGRAVITY V2</strong><br><sub>Local execution. Explicit risk. Observable state.</sub></p>
+<p align="center"><strong>BOT DE TRADING CUANTITATIVO V2</strong><br><sub>Local execution. Explicit risk. Observable state.</sub></p>
